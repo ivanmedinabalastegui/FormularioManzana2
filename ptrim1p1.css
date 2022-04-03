@@ -1,0 +1,228 @@
+body {
+    background-color: #99CCFF;
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+}
+
+header.encabezado {
+    background-color: #99CC99;
+    width: 466px;
+    height: 140px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.e1 {
+    color: #003399;
+    text-align: center;
+}
+
+h1.e2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1.e3 {
+    color: #003399;
+    text-align: center;
+}
+
+img.imagen1 {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgba(50, 50, 50, 0.5);
+    border-radius: 12px;
+    float: left;
+}
+
+section.seccion1 {
+    background-color: #003399;
+    width: 725px;
+    height: 230px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.article1 {
+    width: 150px;
+    size: 15px;
+    background-color: #99CC99;
+    color: #000000;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+article.article2 {
+    width: 150px;
+    size: 15px;
+    background-color: #99CC99;
+    color: #000000;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+article.article3 {
+    width: 150px;
+    size: 15px;
+    background-color: #99CC99;
+    color: #000000;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+article.article4 {
+    width: 150px;
+    size: 15px;
+    background-color: #99CC99;
+    color: #000000;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+section.formulario {
+    background-color: #FFCC99;
+    width: 466px;
+    height: 350px;
+    border-radius: 15px;
+    padding: 7px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+label.seccion2 {
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 6px;
+    text-align: right;
+    color: #003399;
+    font-weight: bold;
+    float: left;
+    padding: 3px;
+    width: 150px;
+}
+
+input.informacion {
+    width: 250px;
+    size: 15;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+select.opciones {
+    width: 250px;
+    height: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+footer {
+    font-weight: bold;
+    width: 72px;
+    height: 72px;
+    border: solid 4px;
+    border-color: #003399;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #003399;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+footer.container {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    background-image: url(bocata.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    color: #003399;
+}
+
+button.unstyled {
+    border: none;
+    padding: 0;
+    background: none;
+    color: #003399;
+    font-weight: bold;
+}
+
+span.asterisco {
+    color: #003399;
+    text-decoration: bold;
+    margin-right: 30px;
+}
+
+select.opciones1 {
+    width: 130px;
+}

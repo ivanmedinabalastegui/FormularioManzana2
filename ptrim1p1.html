@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Prueba Práctica HTML5</title>
+    <link rel="stylesheet" type="text/css" href="ptrim1p1.css"/>
+</head>
+<body>
+<header class="encabezado">
+    <img class="imagen1" src="loquecomo.jpeg">
+    <h1 class="e1">¡Bienvenidos a ECOBOCATA!</h1>
+</header>
+<form action="mailto:atolon@fundacionsafa.es" method="post" enctype="text/plain">
+    <section class="seccion1">
+        <h1 class="e2">Dinos cómo quieres tu bocadillo</h1>
+        <article class="article1">
+            <label for="pan" class="pan"><strong>Pan: * </strong><br>
+                <select class="opciones1" name="opciones">
+                    <option class="pan" selected value="0">---</option>
+                    <option value="1">Centeno</option>
+                    <option value="2">Soja</option>
+                    <option value="3">Integral</option>
+                </select></label></article>
+
+        <article class="article2"><h4>Carne: *</h4>
+            <input type="radio" name="carne">Pollo <br>
+            <input type="radio" name="carne">Avestruz <br>
+            <input type="radio" name="carne">Canguro <br>
+            <input type="radio" name="carne">Salchicha <br>
+        </article>
+
+        <article class="article3"><h4>Ensalada:</h4>
+            <input type="checkbox" name="verdura">Lechuga <br>
+            <input type="checkbox" name="verdura">Pepinillos <br>
+            <input type="checkbox" name="verdura">Tomate <br>
+            <input type="checkbox" name="verdura">Zanahoria <br>
+        </article>
+
+        <article class="article4"><h4>Aderezo:</h4>
+            <input type="checkbox" name="salsa">Mayonesa <br>
+            <input type="checkbox" name="salsa">Mostaza <br>
+            <input type="checkbox" name="salsa">Ali Oli <br>
+            <input type="checkbox" name="salsa">Guacamole <br>
+        </article>
+    </section>
+
+    <section class="formulario">
+        <h1 class="e3">Confírmamos el envío</h1>
+
+        <label for="nombre" class="seccion2">Nombre y Apellidos: *</label>
+        <input type="text" name="nombre" class="informacion" placeholder="Nombre y primer Apellido" required>
+
+        <label for="direccion" class="seccion2">Dirección: *</label>
+        <input type="text" name="direccion" placeholder="Dirección" class="informacion" required>
+
+        <label for="codpostal" class="seccion2">Código Postal: *</label>
+        <input type="text" name="codpostal" placeholder="Código Postal" class="informacion" required>
+
+        <label for="localidad" class="seccion2">Localidad: *</label>
+        <input type="text" name="localidad" placeholder="Localidad" class="informacion" required>
+
+        <label for="correo" class="seccion2">Dirección correo: *</label>
+        <input type="text" name="correo" placeholder="identificador@dominio.com" class="informacion"
+               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}$" required>
+
+        <label for="nombre" class="seccion2">Tipo Tarjeta: *</label>
+        <select class="opciones" name="opciones" required>
+            <option selected value="0">---</option>
+            <option value="1">VISA</option>
+            <option value="2">Mastercard</option>
+            <option value="3">American Express</option>
+        </select>
+
+        <label for="ntarjeta" class="seccion2">Número Tarjeta: *</label>
+        <input type="text" name="ntarjeta" required placeholder="Número Tarjeta" class="informacion">
+        <label for="importe" class="seccion2">Importe: *</label>
+        <input type="text" name="importe" required placeholder="Importe" class="informacion">
+
+    </section>
+
+    <footer class="container">
+        <article class="centered">
+            <button class="unstyled" type="submit">¡Pídelo!</button>
+        </article>
+    </footer>
+</form>
+</body>
+</html>
+                    
